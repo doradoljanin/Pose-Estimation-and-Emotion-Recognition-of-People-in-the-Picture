@@ -1,0 +1,17 @@
+3 types of detections, 3 collaborators...
+
+██████╗ ███████╗████████╗██████╗  ██████╗████████╗██╗ ██████╗ ███╗   ██╗
+██╔══██╗██╔════╝╚══██╔══╝╚════██╗██╔════╝╚══██╔══╝██║██╔═══██╗████╗  ██║
+██║  ██║█████╗     ██║    █████╔╝██║        ██║   ██║██║   ██║██╔██╗ ██║
+██║  ██║██╔══╝     ██║    ╚═══██╗██║        ██║   ██║██║   ██║██║╚██╗██║
+██████╔╝███████╗   ██║   ██████╔╝╚██████╗   ██║   ██║╚██████╔╝██║ ╚████║
+╚═════╝ ╚══════╝   ╚═╝   ╚═════╝  ╚═════╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
+                                                                    
+Usage:     det3ction.py [option] ... [input file path] -o [save file path] 
+-h, --help               show this help message
+-o                       specify the path to the file where generated output should be saved
+Options:
+-d, --object             object detection
+-p, --pose               pose detection
+-e, --emotion            emotion detection
+-a, --all                object detection, pose detection, emotion detection
